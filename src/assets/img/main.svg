@@ -1,1 +1,7 @@
-<svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d="M16 0l16 16h-4v14h-8V20h-8v10H4V16H0z" fill="#4c4c4c"/></svg>
+<?xml version="1.0"?>
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m16,0l16,16l-4,0l0,14l-8,0l0,-10l-8,0l0,10l-8,0l0,-14l-4,0l16,-16z" fill="white" id="svg_1"/>
+ </g>
+</svg>

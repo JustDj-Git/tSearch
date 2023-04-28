@@ -26,16 +26,16 @@ const oneLimit = promiseLimit(1);
  * @property {function} setValue
  */
 const ExplorerSectionsStore = types.model('ExplorerSectionsStore', {
-  favorites: types.optional(types.boolean, true),
+  favorites: types.optional(types.boolean, false),
   kpFavorites: types.optional(types.boolean, true),
   kpInCinema: types.optional(types.boolean, true),
-  imdbInCinema: types.optional(types.boolean, true),
-  kpPopular: types.optional(types.boolean, true),
+  imdbInCinema: types.optional(types.boolean, false),
+  kpPopular: types.optional(types.boolean, false),
   imdbPopular: types.optional(types.boolean, true),
-  kpSeries: types.optional(types.boolean, true),
+  kpSeries: types.optional(types.boolean, false),
   imdbSeries: types.optional(types.boolean, true),
-  ggGamesNew: types.optional(types.boolean, true),
-  ggGamesTop: types.optional(types.boolean, true),
+  ggGamesNew: types.optional(types.boolean, false),
+  ggGamesTop: types.optional(types.boolean, false),
 }).actions(self => {
   return {
     setValue(key, value) {
@@ -75,7 +75,7 @@ const OptionsValueStore = types.model('OptionsValueStore', {
   defineCategory: types.optional(types.boolean, true),
   singleResultTable: types.optional(types.boolean, false),
   requestQueryDescription: types.optional(types.boolean, true),
-  doNotSendStatistics: types.optional(types.boolean, false),
+  doNotSendStatistics: types.optional(types.boolean, true),
   originalPosterName: types.optional(types.boolean, false),
   kpFolderId: types.optional(types.string, '1'),
   explorerSections: types.optional(ExplorerSectionsStore, {}),

@@ -160,15 +160,11 @@ const getDefaultProfile = () => {
     trackers: [{
       id: 'rutracker'
     }, {
+	  id: 'rutor'
+    }, {
       id: 'nnmclub'
     }, {
       id: 'kinozal'
-    }, {
-      id: 'rutor'
-    }, {
-      id: 'tfile'
-    }, {
-      id: 'opentorrent'
     }]
   };
 };
