@@ -1,2 +1,2 @@
-root: D:\Progs\nvm
+root: D:\Repo\tSearch\_nvm
 path: C:\Program Files\nodejs
