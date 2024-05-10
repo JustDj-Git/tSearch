@@ -1,0 +1,6 @@
+nvm install 16.13.0
+nvm use 16.13.0
+#npm v8.1.0 min
+npm ci
+npm install 
+npm run build
